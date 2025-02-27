@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "program"
+]
+
+[workspace.dependencies]
+solana-program = "1.17.0"
+spl-token = "4.0.0"
+borsh = "0.10.3"
+borsh-derive = "0.10.3"

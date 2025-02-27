@@ -1,0 +1,13 @@
+[package]
+name = "treasury"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = { workspace = true }
+spl-token = { workspace = true, features = ["no-entrypoint"] }
+borsh = { workspace = true }
+borsh-derive = { workspace = true }
+
+[lib]
+crate-type = ["cdylib", "lib"]
